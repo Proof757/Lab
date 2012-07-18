@@ -1,0 +1,122 @@
+/* line 66, album/*.png */
+.album-sprite, .db-xxx, .db-xxx:hover, .absoul-cs, .absoul-cs:hover {
+  background: url('/img/album-sa0d8dc242a.png') no-repeat;
+}
+
+/* line 4, ../sass/global.scss */
+body {
+  background: url('/img/dark_bg.png?1342584409');
+  background-color: #282828;
+}
+
+/* line 9, ../sass/global.scss */
+header {
+  margin: 20px 50px 0;
+}
+
+/* line 13, ../sass/global.scss */
+header h2 {
+  font: normal 2.3em League Gothic;
+  margin: 0;
+  color: #FFF;
+}
+
+/* line 19, ../sass/global.scss */
+.album {
+  list-style: none;
+}
+
+/* line 23, ../sass/global.scss */
+.album li {
+  margin: 0 10px 20px;
+  font: normal .9em Helvetica, Arial, sans-serif;
+  background: rgba(30, 30, 30, 0.7);
+  float: left;
+  clear: both;
+  border: 1px solid #000;
+  min-width: 394px;
+}
+
+/* line 33, ../sass/global.scss */
+.album li a {
+  display: block;
+  text-decoration: none;
+  z-index: 1;
+  overflow: hidden;
+  border: 1px solid #252525;
+  padding: 10px 20px;
+}
+/* line 40, ../sass/global.scss */
+.album li a .title {
+  color: #0a677e;
+}
+/* line 44, ../sass/global.scss */
+.album li a .artist {
+  color: #b3532e;
+}
+
+/* line 49, ../sass/global.scss */
+.album li span {
+  display: block;
+}
+
+/* line 53, ../sass/global.scss */
+.album li .cover {
+  float: left;
+  width: 100px;
+  height: 100px;
+  border: 5px solid #000;
+  margin: 0 15px 0 0;
+}
+/* line 59, ../sass/global.scss */
+.album li .cover:hover {
+  -webkit-transition: all, 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all, 1s;
+}
+/* line 62, ../sass/global.scss */
+.album li .cover:after {
+  border-right: 1px solid #000;
+  content: '';
+  height: inherit;
+  display: block;
+  position: relative;
+  left: 18px;
+}
+
+/* line 72, ../sass/global.scss */
+.album li p {
+  float: left;
+  padding: 0 120px 0 10px;
+}
+
+/* line 77, ../sass/global.scss */
+.album li .artist {
+  font-weight: bold;
+}
+
+/* line 81, ../sass/global.scss */
+.album li .title {
+  padding-bottom: 5px;
+  font-style: italic;
+}
+
+/* line 86, ../sass/global.scss */
+.db-xxx {
+  background-position: 0 -300px;
+}
+/* line 88, ../sass/global.scss */
+.db-xxx:hover {
+  background-position: 0 -200px;
+}
+
+/* line 93, ../sass/global.scss */
+.absoul-cs {
+  background-position: 0 -100px;
+}
+/* line 95, ../sass/global.scss */
+.absoul-cs:hover {
+  background-position: 0 0;
+}

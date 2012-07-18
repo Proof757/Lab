@@ -1,0 +1,144 @@
+ul { list-style: none; }
+
+a.button {
+	display: block;
+	float: left;
+	position: relative;
+	height: 25px;
+	width: 80px;
+	margin: 0 10px 18px 0;
+
+	text-decoration: none;
+	font: bold 12px/25px Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+
+/* Gray */
+
+.gray, 
+.gray:hover {
+	color: #555;
+	border-bottom: 4px solid #b2b1b1;
+}
+
+.gray {	background: #eee; }
+.gray:hover { background: #e2e2e2; }
+
+/* End Gray */
+
+/* Pink */
+
+.pink,
+.pink:hover {
+	color: #913944;
+	border-bottom: 4px solid #d57681;
+}
+
+.pink { background: #f78593; }
+.pink:hover { background: #f56c7e; }
+
+/* End Pink */
+
+/* Blue */
+
+.blue,
+.blue:hover {
+	color: #42788e;
+	border-bottom: 4px solid #589cb6;
+}
+
+.blue { background: #abe4f8; }
+.blue:hover { background: #7ad2f4; }
+
+/* End Blue */
+
+/* Green */
+
+.green,
+.green:hover {
+	color: #5d7731;
+	border-bottom: 4px solid #799545 ;
+}
+
+.green { background: #cae285; }
+.green:hover { background: #a7cf5f; }
+
+/* End Green */
+
+/* Turquoise */
+
+.turquoise,
+.turquoise:hover {
+	color: ;
+	border-bottom: 4px solid;
+}
+
+.turquoise { background: ; }
+.turquoise:hover { background: ; }
+
+/* End Turquoise */
+
+/* Black */
+
+.black,
+.black:hover {
+	color: ;
+	border-bottom: 4px solid;
+}
+
+.black { background: #; }
+.black:hover{ background: #; }
+
+/* End Black */
+
+/* Dark Gray */
+
+.darkgray,
+.darkgray:hover {
+	color: ;
+	border-bottom: 4px solid;
+}
+
+.darkgray { background: ; }
+.darkgray:hover { background: ; }
+
+/* End Dark Gray */
+
+/* Yellow */
+
+.yellow,
+.yellow:hover {
+	color: ;
+	border-bottom: 4px solid;
+}
+
+.yellow { background: ; }
+.yellow:hover { background: ; }
+
+/* End Yellow */
+
+/* Purple */
+
+.purple,
+.purple:hover {
+	color: ;
+	border-bottom: 4px solid;
+}
+
+.purple {}
+.purple:hover {}
+
+/* End Purple */
+
+/* Dark Blue */
+
+.darkblue,
+.darkblue:hover {
+	color: ;
+	border-bottom: 4px solid;
+}
+
+.darkblue { background: ; }
+.darkblue:hover { background: ; }
+
+/* End Dark Blue */

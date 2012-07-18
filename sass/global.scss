@@ -1,0 +1,98 @@
+@import "compass";
+@import "album/*.png";
+
+body {
+	background: image-url('dark_bg.png');
+	background-color: #282828;
+}
+
+header {
+    margin: 20px 50px 0;
+}
+
+header h2 {
+    font: normal 2.3em League Gothic;
+    margin: 0;
+    color: #FFF;
+}
+
+.album {
+	list-style: none;
+}
+
+.album li {
+	margin: 0 10px 20px;
+	font: normal .9em Helvetica, Arial, sans-serif;
+	background: rgba(30,30,30,.7);
+	float: left;
+	clear: both;
+	border: 1px solid #000;
+	min-width: 394px;
+}
+
+.album li a { 
+	display: block;
+	text-decoration: none;
+	z-index: 1;
+	overflow: hidden;
+	border: 1px solid #252525;
+	padding: 10px 20px;
+	& .title {
+		color: rgb(10, 103, 126);
+	}
+
+	& .artist {
+		color: rgb(179, 83, 46);
+	}
+}
+
+.album li span {
+	display: block;
+}
+
+.album li .cover {
+	float: left;
+	width: 100px;
+	height: 100px;
+	border: 5px solid #000;
+	margin: 0 15px 0 0;
+		&:hover {
+		@include transition;
+	}
+		&:after {
+			border-right: 1px solid #000;
+			content: '';
+			height: inherit;
+			display: block;
+			position: relative;
+			left: 18px;
+		}
+}
+
+.album li p {
+	float: left;
+	padding: 0 120px 0 10px;
+}
+
+.album li .artist {
+	font-weight: bold;
+}
+
+.album li .title {
+	padding-bottom: 5px;
+	font-style: italic;
+}
+
+.db-xxx {
+	@include album-sprite("db-xxx");
+		&:hover {
+			@include album-sprite("db-xxx_hover");
+		}
+}
+
+.absoul-cs {
+	@include album-sprite("absoul-cs");
+		&:hover {
+			@include album-sprite ("absoul-cs_hover");
+		}
+}
